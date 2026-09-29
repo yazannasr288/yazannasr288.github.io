@@ -3,7 +3,7 @@ const projectData = {
     kicker: '01 / FLUTTER E-COMMERCE SYSTEM',
     title: 'Flutter E-Commerce System',
     description: 'A complete multi-application e-commerce system with customer, admin and delivery apps connected to a shared PHP/MySQL backend.',
-    image: 'https://raw.githubusercontent.com/yazannasr288/flutter-ecommerce-system/main/screenshots/customer/home.png',
+image: 'assets/ecommerce.png',
     repo: 'https://github.com/yazannasr288/flutter-ecommerce-system',
     features: ['Customer shopping flow with search, favorites, cart, coupons and checkout', 'Admin dashboard for products, categories, offers, coupons, deliveries and orders', 'Delivery workflow with assigned orders, tracking and map integration', 'Push notifications, Arabic/English localization and Google Maps integration'],
     tech: ['Flutter', 'Dart', 'GetX', 'PHP', 'MySQL', 'Firebase Cloud Messaging', 'Google Maps', 'SQLite']
@@ -12,8 +12,7 @@ const projectData = {
     kicker: '02 / ALWATANYA CHAT',
     title: 'University Communication & Group Chat',
     description: 'A university-focused communication platform built around real-time groups, secure role management, media sharing and server-side administrative workflows.',
-    image: 'https://raw.githubusercontent.com/yazannasr288/university-chat-app/main/screenshots/04-chat.png',
-    repo: 'https://github.com/yazannasr288/university-chat-app',
+image: 'assets/chat.png',    repo: 'https://github.com/yazannasr288/university-chat-app',
     features: ['Real-time group chat with text, image, video, file and audio sharing', 'Role-based access with multiple administrative levels', 'Push and local notifications plus managed notification campaigns', 'Admin dashboard for users, groups, events, credentials and audit-oriented workflows'],
     tech: ['Flutter', 'Firebase Auth', 'Firestore', 'Storage', 'Cloud Functions', 'TypeScript', 'FCM', 'Secure Storage']
   },
@@ -21,8 +20,7 @@ const projectData = {
     kicker: '03 / CALLME',
     title: 'Voice & Video Calling',
     description: 'A Flutter calling application that combines a simple user directory with real-time voice and video calls through ZEGO UI Kit and backend integration.',
-    image: 'https://raw.githubusercontent.com/yazannasr288/callme-flutter/main/screenshots/home-screen.png',
-    repo: 'https://github.com/yazannasr288/callme-flutter',
+image: 'assets/callme.png',    repo: 'https://github.com/yazannasr288/callme-flutter',
     features: ['Username and ID based registration/sign-in', 'User directory backed by PHP endpoints', 'One-tap voice and video calling', 'Persistent login state and ZEGO signaling/calling integration'],
     tech: ['Flutter', 'Dart', 'ZEGO UI Kit', 'ZEGO Signaling', 'PHP', 'Firebase', 'HTTP', 'Shared Preferences']
   },
@@ -30,8 +28,7 @@ const projectData = {
     kicker: '04 / WEDDING QR LOCAL APP',
     title: 'Offline Invitation & QR Control',
     description: 'An offline-first event entry system for creating invitations, generating compact QR codes and validating one-time guest entry locally.',
-    image: 'https://raw.githubusercontent.com/yazannasr288/wedding-qr-local-app/main/screenshots/qr-scanner.png',
-    repo: 'https://github.com/yazannasr288/wedding-qr-local-app',
+image: 'assets/wedding.png',    repo: 'https://github.com/yazannasr288/wedding-qr-local-app',
     features: ['Create single or bulk invitations and generate unique QR codes', 'Camera scanning with one-time validation and reuse prevention', 'Local SQLite storage and scan logging without a remote backend', 'Dashboard, search, invitation editing and Arabic RTL interface'],
     tech: ['Flutter', 'Dart', 'SQLite', 'Sqflite', 'QR Flutter', 'Mobile Scanner', 'UUID', 'Material 3']
   },
@@ -39,8 +36,7 @@ const projectData = {
     kicker: '05 / SHOPSMART',
     title: 'Modern Flutter Shopping App',
     description: 'A clean shopping experience using Firebase services for authentication and cloud product data, with a responsive Material-based interface.',
-    image: 'https://raw.githubusercontent.com/yazannasr288/shopsmart/main/screenshots/home-screen.png',
-    repo: 'https://github.com/yazannasr288/shopsmart',
+image: 'assets/shopsmart.png',    repo: 'https://github.com/yazannasr288/shopsmart',
     features: ['Email/password and Google authentication', 'Categories, search, product browsing and recently viewed items', 'Shopping cart, wishlist, orders and address management', 'Light/dark mode with persisted user preference'],
     tech: ['Flutter', 'Dart', 'Firebase Auth', 'Firestore', 'Google Sign-In', 'Provider', 'Shared Preferences', 'Material Design']
   },
@@ -48,8 +44,7 @@ const projectData = {
     kicker: '06 / QURAAN APP',
     title: 'Offline Arabic Qur’an Reader',
     description: 'A lightweight Flutter reader with local Surah data, right-to-left Arabic support and a focused Material 3 reading experience.',
-    image: 'https://raw.githubusercontent.com/yazannasr288/quraan-app/main/screenshots/homepage.png',
-    repo: 'https://github.com/yazannasr288/quraan-app',
+image: 'assets/quraan.png',    repo: 'https://github.com/yazannasr288/quraan-app',
     features: ['Browse all Surahs from an organized list', 'Read verses from local application assets', 'Offline-first reading experience', 'RTL Arabic support with custom branding and lightweight navigation'],
     tech: ['Flutter', 'Dart', 'Material 3', 'Local Assets', 'RTL UI']
   }
